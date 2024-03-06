@@ -6,12 +6,7 @@
   padding-bottom: 20px;
 }
 
-.colour-border{
-  margin: 20% 45% 0;
-  display:inline-block;
-  
-  font-size: 4em;
-  
+.colour-border{ 
   border-bottom: 10px solid #9ae2ff;
   animation-name: blinking;
   animation-duration: 1s;
