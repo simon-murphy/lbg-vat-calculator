@@ -7,8 +7,7 @@
 }
 
 .colour-border{
-  border: 3px solid rgb(21, 128, 0);
-  border-style: dotted;
+  border: 3px ridge rgb(21, 128, 0);
   padding: 10px;
 }
 
