@@ -6,11 +6,9 @@
   padding-bottom: 20px;
 }
 
-.colour-border{ 
-  border-bottom: 10px solid #9ae2ff;
-  animation-name: blinking;
-  animation-duration: 1s;
-  animation-iteration-count: 100;
+.colour-border{
+  border: 3px solid rgb(21, 128, 0);
+  padding: 10px;
 }
 
 .header{
