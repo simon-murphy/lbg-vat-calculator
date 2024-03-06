@@ -34,24 +34,9 @@ function App() {
   };
 
   return (
+    
     <div className='header field'>
-      VAT CALCULATOR
-           /~~~~~~~~\\                           _
-           ##\\__/ @)      ~~~~~~~~\\                     \\ \\ 
-            |              /~~\\~~~~~                ((    |  \\
-             \\    /           |                          /   |
-              (~~~   /         \\____________/~~~~~~~~~~~~   /
-               ~~~~|~                                     /
-                   :                                      |
-                    \\                                     |
-                    |                               /      \\
-                     \\  \\_         :         \\     /~~~\\    |
-                     /   :~~~~~|   :~~~~~~~~~~|   :     :   :
-                    /    :    /    :         /    :    /    :
-                (~~~     )(~~~     )     (~~~     )(~~~     )
-                 ~~~~~~~~  ~~~~~~~~       ~~~~~~~~  ~~~~~~~~
-                  STOMP     STOMP          STOMP     STOMP
-        
+      VAT CALCULATOR  + CTS Overheads     
       <div className='colour-border'>
         <VatRateField customstyle="field" vatRateChanged={handleVatRateChanged} value={vatRate} updatePrices={updatePrices} />
         <PriceEntryField customstyle="field" label="Price excl VAT: " priceChanged={handleNetPriceChange} price={netPrice === 0.0 ? "" : netPrice} />
