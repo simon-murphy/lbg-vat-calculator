@@ -8,6 +8,7 @@
 
 .colour-border{
   border: 3px solid rgb(21, 128, 0);
+  border-style: dotted;
   padding: 10px;
 }
 
